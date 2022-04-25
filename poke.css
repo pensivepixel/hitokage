@@ -1,0 +1,205 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#answerz {
+    font-family: monospace;
+    position: absolute;
+    top: 420px;
+    left: 83px;
+    border: solid 10px #666;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 24pt;
+    width: 195px;
+    text-align: center;
+}
+
+#cropper {
+     overflow: hidden;
+     width: 300px;
+     height: 300px;
+     border: solid;
+     position: absolute;
+     left: 45px;
+     top: 45px;
+     background-color: black;
+}
+
+#hint {
+    animation-delay: 4s;
+}
+
+#crt {
+    position: absolute;
+    z-index: 3;
+    width: 445px;
+    height: 367px;
+}
+
+#glitch {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    animation: glitch 5s;
+    animation-fill-mode: forwards;
+}
+#checkmark {
+    width: 100px;
+    position: absolute;
+    z-index: 0;
+    left: 100px;
+    top: 100px;
+    visibility: hidden;
+}
+
+.book {
+    animation: book 60s;
+}
+
+.shark {
+    animation: shark 60s;
+}
+
+.drawer {
+    animation: drawer 60s;
+}
+
+.bunt {
+    animation: bunt 60s;
+}
+
+.light {
+    animation: light 60s;
+}
+
+.drum {
+    animation: drum 60s;
+}
+
+.paint {
+    animation: paint 60s;
+}
+
+.mummy {
+    animation: mummy 60s;
+}
+
+.pillow {
+    animation: pillow 60s;
+}
+
+.rail {
+    animation: rail 60s;
+}
+
+.chicken {
+    animation: chicken 60s;
+}
+
+.chest {
+    animation: chest 60s;
+}
+
+.landscape {
+    margin-top:60px;
+    width: 100%;
+    height: auto;
+}
+
+.portrait {
+    margin-left: 65px;
+    width: auto;
+    height: 100%;
+}
+
+
+@keyframes glitch {
+    0% {
+        opacity: 100%
+    }
+    90% {
+        opacity: 100%
+    }
+    100% {
+        opacity: 20%
+    }
+}
+
+
+@keyframes book {
+    0% {
+        transform: scale3d(9,9,0) translate3d(-30px,20px,0px);
+    }
+}
+
+@keyframes shark {
+    0% {
+        transform: scale3d(15,15,0) translate3d(80px,20px,0px);
+    }
+}
+
+@keyframes drawer {
+    0% {
+        transform: scale3d(20,20,0) translate3d(0px,0px,0px);
+    }
+}
+
+@keyframes bunt {
+    0% {
+        transform: scale3d(10,10,0) translate3d(5px,70px,0px);
+    }
+}
+
+@keyframes light {
+    0% {
+        transform: scale3d(20,20,0) translate3d(-20px,20px,0px);
+    }
+}
+
+@keyframes drum {
+    0% {
+        transform: scale3d(10,10,0) translate3d(-10px,40px,0px);
+    }
+}
+
+@keyframes paint {
+    0% {
+        transform: scale3d(10,10,0) translate3d(15px,130px,0px);
+    }
+}
+
+@keyframes mummy {
+    0% {
+        transform: scale3d(10,10,0) translate3d(-5px,-50px,0px);
+    }
+}
+
+@keyframes pillow {
+    0% {
+        transform: scale3d(10,10,0) translate3d(80px,-10px,0px);
+    }
+}
+
+@keyframes rail {
+    0% {
+        transform: scale3d(10,10,0) translate3d(-10px,45px,0px);
+    }
+}
+
+@keyframes chicken {
+    0% {
+        transform: scale3d(10,10,0) translate3d(5px,80px,0px);
+    }
+}
+
+@keyframes chest {
+    0% {
+        transform: scale3d(10,10,0) translate3d(5px,70px,0px);
+    }
+}
+
