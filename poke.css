@@ -98,11 +98,11 @@ body {
 }
 
 .chicken {
-    animation: chicken 120s;
+    animation: chicken 10s;
 }
 
 .chest {
-    animation: chest 120s;
+    animation: chest 10s;
 }
 
 .landscape {
